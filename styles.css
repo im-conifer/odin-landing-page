@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  color: #eee;
+  background-color: #333;
+}
+
+header a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.top-bar {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.links {
+  display: flex;
+  gap: 30px;
+}
+
+.head-content {
+  display: flex;
+  padding: 50px;
+  justify-content: space-evenly;
+}
+
+.head-left {
+  max-width: 500px;
+}
+
+.head-right img {
+  width: 500px;
+}
