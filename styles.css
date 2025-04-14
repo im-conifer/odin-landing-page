@@ -12,6 +12,12 @@ body {
   font-size: 36px;
 }
 
+.desc {
+  font-style: italic;
+  color: #444;
+  text-align: center;
+}
+
 header {
   color: #f9faf8;
   background-color: #1f2937;
@@ -74,4 +80,30 @@ button:hover {
 
 .head-right img {
   max-width: 40vw;
+}
+
+h2 {
+  color: #1f2937;
+  font-weight: 900;
+  text-align: center;
+}
+
+.photos {
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+}
+
+.photos a {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  flex-wrap: wrap;
+  width: 15vw;
+}
+
+.photo {
+  width: 15vw;
+  border: 5px solid #3882f6;
+  border-radius: 15px;
 }
