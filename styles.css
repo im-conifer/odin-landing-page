@@ -92,6 +92,7 @@ h2 {
   display: flex;
   justify-content: center;
   gap: 5vw;
+  margin-bottom: 50px;
 }
 
 .photos a {
@@ -106,4 +107,23 @@ h2 {
   width: 15vw;
   border: 5px solid #3882f6;
   border-radius: 15px;
+}
+
+.quote-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 50px 10vw;
+  background-color: #e5e7eb;
+}
+
+.quote {
+  font-style: italic;
+  color: #1f2937;
+  margin: 0;
+}
+
+.quote-by {
+  font-weight: bold;
+  align-self: flex-end;
 }
