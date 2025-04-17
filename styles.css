@@ -18,9 +18,15 @@ body {
   text-align: center;
 }
 
-header {
-  color: #f9faf8;
+header,
+footer {
   background-color: #1f2937;
+}
+
+header,
+.text,
+footer {
+  color: #f9faf8;
 }
 
 .logo {
@@ -29,7 +35,8 @@ header {
 }
 
 header a,
-header p {
+header p,
+.below {
   color: #e5e7eb;
 }
 
@@ -126,4 +133,33 @@ h2 {
 .quote-by {
   font-weight: bold;
   align-self: flex-end;
+}
+
+.call {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  margin: 100px 15vw;
+  padding: 50px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text p {
+  margin: 0;
+}
+
+.border-yes {
+  border: 3px solid white;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
 }
